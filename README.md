@@ -1,4 +1,5 @@
-Sentiment Analysis on Restaurant Reviews
+# Sentiment Analysis on Restaurant Reviews
+
 A Comprehensive NLP Pipeline Using Classical Machine Learning to Classify Review Sentiments
 
 Project Description
