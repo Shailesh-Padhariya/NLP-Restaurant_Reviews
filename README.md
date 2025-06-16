@@ -1,6 +1,7 @@
 Sentiment Analysis on Restaurant Reviews
+A Comprehensive NLP Pipeline Using Classical Machine Learning to Classify Review Sentiments
 
-Project Description:
+Project Description
 This project focuses on sentiment analysis applied to a dataset containing 1,000 restaurant reviews, aiming to classify each review as expressing either a positive or negative sentiment. The analysis involves several key stages designed to transform raw text data into actionable insights through classical machine learning techniques.
 
 The first phase involves extensive text preprocessing, where reviews are cleaned by removing punctuation and special characters, converting all text to lowercase for uniformity, and eliminating common stopwords—while deliberately retaining negation words like “not” to preserve sentiment context. Additionally, stemming is applied to reduce words to their root forms, helping to unify variations of the same word and improve feature consistency.
