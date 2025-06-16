@@ -1,25 +1,14 @@
 Sentiment Analysis on Restaurant Reviews
 
 Project Description:
-Sentiment Analysis on Restaurant Reviews
+This project focuses on sentiment analysis applied to a dataset containing 1,000 restaurant reviews, aiming to classify each review as expressing either a positive or negative sentiment. The analysis involves several key stages designed to transform raw text data into actionable insights through classical machine learning techniques.
 
-Cleaned and preprocessed text data including stopword removal and stemming.
+The first phase involves extensive text preprocessing, where reviews are cleaned by removing punctuation and special characters, converting all text to lowercase for uniformity, and eliminating common stopwords—while deliberately retaining negation words like “not” to preserve sentiment context. Additionally, stemming is applied to reduce words to their root forms, helping to unify variations of the same word and improve feature consistency.
 
-Converted text to numeric features using Bag of Words.
+Following preprocessing, the cleaned text is transformed into numerical data using the Bag of Words model, implemented through CountVectorizer. This converts the textual information into a matrix of token counts, enabling machine learning algorithms to process the data effectively.
 
-Built and evaluated Naive Bayes and Decision Tree classifiers for sentiment prediction.
+For model development, the project employs two widely-used classifiers: Naive Bayes and Decision Tree. Both models are trained on the vectorized data to learn patterns indicative of positive or negative sentiments in the reviews. The trained models are then evaluated on unseen test data to measure their predictive accuracy and robustness.
 
-Achieved strong classification accuracy on unseen test data.
+Model performance is assessed using standard classification metrics, including accuracy scores, confusion matrices that reveal true vs. predicted classifications, and comprehensive classification reports detailing precision, recall, and F1-scores. The Naive Bayes classifier achieved an accuracy of approximately 73% on the test set, demonstrating solid predictive capability given the dataset size and simplicity of features.
 
-This project performs sentiment analysis on a dataset of 1,000 restaurant reviews, classifying each review as positive or negative. The process includes:
-
-Data cleaning: removing punctuation, converting text to lowercase, removing stopwords (except "not"), and stemming words to their root forms.
-
-Feature extraction: using Bag of Words model with CountVectorizer to convert text into numeric features.
-
-Model training: implementing Naive Bayes and Decision Tree classifiers to predict review sentiment.
-
-Evaluation: assessing model performance with accuracy, confusion matrix, and classification reports.
-
-The project demonstrates foundational NLP techniques and classical machine learning applied to real-world text data
-
+Overall, this project serves as a practical application of foundational natural language processing techniques combined with classical machine learning algorithms to analyze sentiment in real-world text data. It demonstrates the end-to-end workflow from raw data handling to model evaluation, suitable for anyone looking to understand or build sentiment analysis systems.
